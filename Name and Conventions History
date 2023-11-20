@@ -1,0 +1,55 @@
+C++ has about 95 keywords. These keywords are used for specific purposes when coding in C++. In C++ the names of variables can contain letters, digits, and underscores. These names must begin with a letter or an underscore and can’t contain special characters. In C++ names are case sensitive (myKitchen and mykitchen)are not interchangeable and would be considered different variables.
+There are many conventions in C++. These include many things: 
+        The class name should be a noun.
+        Use upper case letters as word separators, and lower case for the rest of the word in the class name.
+        The first character in the class name must be in upper case.
+        No underscores (‘_’) are permitted in the class name.
+        The private attribute name in class should be prepended with the character ‘m’.
+        After prepending ‘m’, the same rules will be followed for the name as that for the class name.
+        Character ‘m’ also precedes other name modifiers. For example, ‘p’ for pointers.
+        Each method/ function name should begin with a verb.
+        The first character of function/ method argument names should be lowercase. All words starting after the first letter should be in the upper case with class names.
+        The variable name should begin with an alphabet.
+        Digits may be used in the variable name but only after the alphabet.
+        No special symbols can be used in variable names except for the underscore(‘_’).
+        No keywords can be used for variable names.
+        Pointer variables should be prepended with ‘p’ and place the asterisk ‘*’ close to the variable name instead of the pointer type.
+        Reference variables should be prepended with ‘r’. This helps to differentiate between the method returning a modifiable object and the same method returning a non-modifiable object.
+        Static variables should be prepended with ‘s’.
+        The global constants should be all capital letters separated with ‘_’.
+        No special character is allowed in the file name except for underscore (‘_’) and dash (‘-‘).
+        The file name should end with the .cc extension in the end or should end with the .cpp extension.
+        Do not use filenames that already exist in /user/include. or any predefined header file name.
+C++ is statically typed. C++ is also strongly typed. This means you can create a set of generic data types and accurately represent them. 	C++ is both. Implicit type conversion is done automatically by the compiler, while explicit type conversion is done manually by the programmer. Explicit type conversion can be done in two ways by using the assignment operator or the cast operator.
+C++ has many operators which include addition, subtraction, and many other operations: 
+        The addition adds two operands: 
+            int a = 3, b = 6;
+            int c = a (+) b; // c = 9
+        Subtraction subtracts the second operand from the first:
+            int a = 9, b = 6;
+            int c = a (-) b; // c = 3
+        Multiplication multiplies two operands: 
+            int a = 3, b = 6;
+            int c = a (*) b; // c = 18
+        Division divides the first operand by the second operand: 
+            int a = 12, b = 6;
+            int c = a (/) b; // c = 2 
+        Modulo Operation returns the remainder of an integer division: 
+            int a = 30, b = 7;
+            int c = a (%) b; // c = 4.29
+Mixed-type operations are allowed. For example when you divide a float value like 40.5 by an integer such as 5. C++ will attempt to automatically handle the mixing of the two, this is called promotion. When one data type of a variable is temporarily converted to match the data type of another variable so that a math operation can be performed using the mixed data type.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
