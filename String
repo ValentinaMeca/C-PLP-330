@@ -2,8 +2,8 @@
 #include <string> //used to include a file in our program and we need it to use count
 int main ()
 {
-  std::string string1;
-  string1 = "Hi Everyone, how are you ? ";
-  std::cout << string1;
+  std::string string1; //named string "String1"
+  string1 = "Hi Everyone, how are you ? "; //contents of the string
+  std::cout << string1; //return the string 
   return 0;
 }
