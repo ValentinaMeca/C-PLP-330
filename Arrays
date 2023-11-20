@@ -1,0 +1,8 @@
+#include <iostream> //used to include a file in our program and we need it to use count
+#include <string> //used to include a file in our program and we need it to use string
+int main ()
+{
+    std::string colors[5] = {"Lilac", "Blue", "Pink", "Green", "Magenta"}; //creating an array with strings called colors with 5 colors in it 
+    for (int i = 0; i < 5; i++) { // the loop goes throught the array 
+        std::cout << colors[i] << "\n"; //output of what color is at a specific index after the loop has been completed
+    }
